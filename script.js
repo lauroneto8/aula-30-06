@@ -13,3 +13,7 @@ botãoDiminuir.addEventListener("click", function() {
     valorAtual--;
     spanValor.textContent = valorAtual
 });
+botãoResetar.addEventListener("click", function() {
+    ;
+    spanValor.textContent = valorAtual
+});
