@@ -9,3 +9,7 @@ botãoAumentar.addEventListener("click", function() {
     valorAtual++;
     spanValor.textContent = valorAtual
 });
+botãoDiminuir.addEventListener("click", function() {
+    valorAtual--;
+    spanValor.textContent = valorAtual
+});
