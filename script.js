@@ -1,19 +1,19 @@
 let valorAtual = 0;
 
 const spanValor = document.getElementById("valor")
-const botãoAumentar = document.getElementById("aumentar")
-const botãoDiminuir = document.getElementById("diminuir")
-const botãoResetar = document.getElementById("resetar")
+const botaoAumentar = document.getElementById("aumentar")
+const botaoDiminuir = document.getElementById("diminuir")
+const botaoResetar = document.getElementById("resetar")
 
-botãoAumentar.addEventListener("click", function() {
+botaoAumentar.addEventListener("click", function() {
     valorAtual++;
     spanValor.textContent = valorAtual
 });
-botãoDiminuir.addEventListener("click", function() {
+botaoDiminuir.addEventListener("click", function() {
     valorAtual--;
     spanValor.textContent = valorAtual
 });
-botãoResetar.addEventListener("click", function() {
+botaoResetar.addEventListener("click", function() {
     valorAtual   = 0;
     spanValor.textContent = valorAtual
 });
