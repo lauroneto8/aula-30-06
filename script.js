@@ -14,6 +14,6 @@ botãoDiminuir.addEventListener("click", function() {
     spanValor.textContent = valorAtual
 });
 botãoResetar.addEventListener("click", function() {
-    ;
+    valorAtual   = 0;
     spanValor.textContent = valorAtual
 });
